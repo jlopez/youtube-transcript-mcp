@@ -49,7 +49,7 @@ if $DRY_RUN; then
   echo "  ${CMD[*]}"
   echo ""
   echo "You can also install globally via npx:"
-  echo "  claude mcp add youtube-transcript --scope user -- npx youtube-transcript-mcp"
+  echo "  claude mcp add youtube-transcript --scope user -- npx @jesusla/youtube-transcript-mcp"
   exit 0
 fi
 
@@ -58,4 +58,4 @@ fi
 echo "Done. youtube-transcript MCP server registered (scope: $SCOPE)."
 echo ""
 echo "You can also install globally via npx:"
-echo "  claude mcp add youtube-transcript --scope user -- npx youtube-transcript-mcp"
+echo "  claude mcp add youtube-transcript --scope user -- npx @jesusla/youtube-transcript-mcp"

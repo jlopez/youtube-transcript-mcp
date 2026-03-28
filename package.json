@@ -1,5 +1,5 @@
 {
-  "name": "youtube-transcript-mcp",
+  "name": "@jesusla/youtube-transcript-mcp",
   "type": "module",
   "version": "0.1.0",
   "description": "MCP server that extracts YouTube video transcripts",
@@ -17,6 +17,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsup",
     "postbuild": "chmod +x dist/index.js",
