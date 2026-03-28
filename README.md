@@ -27,7 +27,7 @@ Supports all YouTube URL formats:
 ### Via npx (recommended)
 
 ```bash
-claude mcp add youtube-transcript -- npx youtube-transcript-mcp
+claude mcp add youtube-transcript -- npx @jesusla/youtube-transcript-mcp
 ```
 
 ### From source
@@ -53,6 +53,12 @@ pnpm typecheck      # type check
 pnpm lint           # lint
 pnpm lint:fix       # lint with auto-fix
 ```
+
+## Publishing
+
+Releases are automated via [release-please](https://github.com/googleapis/release-please). Pushing conventional commits to `main` will create/update a release PR. Merging that PR triggers a build and publish to npm.
+
+**Setup required:** Add an `NPM_TOKEN` secret to the repository (Settings → Secrets → Actions) with a valid npm access token that has publish permissions for this package.
 
 ## License
 
