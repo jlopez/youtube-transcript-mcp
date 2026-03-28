@@ -24,6 +24,7 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
+    "knip": "knip",
     "test": "vitest run",
     "test:watch": "vitest",
     "mcp:register": "bash scripts/register.sh"
@@ -37,6 +38,7 @@
     "@antfu/eslint-config": "^4.12.0",
     "@types/node": "^22.0.0",
     "eslint": "^9.0.0",
+    "knip": "^6.0.6",
     "tsup": "^8.0.0",
     "tsx": "^4.20.6",
     "typescript": "^5.8.3",
