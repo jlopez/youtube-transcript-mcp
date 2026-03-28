@@ -1,7 +1,7 @@
 {
   "name": "@jesusla/youtube-transcript-mcp",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "MCP server that extracts YouTube video transcripts",
   "license": "MIT",
   "keywords": [
